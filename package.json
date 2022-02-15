@@ -11,7 +11,7 @@
     "build-mac": "electron-packager ./ --out=./bin --platform=darwin --arch=x64 --icon=icon/app.icns --app-copyright='Author: ayame.space (@ayame_q)' --overwrite --app-bundle-id=space.ayame.tweetship.desktop --app-category-type=public.app-category.social-networking",
     "build-win64": "electron-packager ./ --out=./bin --platform=win32 --arch=x64 --icon=icon/app.ico --overwrite",
     "build-win32": "electron-packager ./ --out=./bin --platform=win32 --arch=ia32 --icon=icon/app.ico --overwrite",
-    "pack-win64":"electron-builder --win --x64"
+    "pack-win64": "electron-builder --win --x64"
   },
   "license": "MIT",
   "devDependencies": {
